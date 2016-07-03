@@ -1,0 +1,27 @@
+PODS:
+  - OHHTTPStubs (5.1.0):
+    - OHHTTPStubs/Default (= 5.1.0)
+  - OHHTTPStubs/Core (5.1.0)
+  - OHHTTPStubs/Default (5.1.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (5.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (5.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (5.1.0)
+  - Typhoon (3.4.8):
+    - Typhoon/no-arc (= 3.4.8)
+  - Typhoon/no-arc (3.4.8)
+
+DEPENDENCIES:
+  - OHHTTPStubs
+  - Typhoon
+
+SPEC CHECKSUMS:
+  OHHTTPStubs: 592f74439d2d72615115cf99a954237a3fbe26e5
+  Typhoon: f2390ad976bd1acaf5680b837781720faf5ff909
+
+COCOAPODS: 0.39.0
